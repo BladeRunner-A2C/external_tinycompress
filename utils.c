@@ -70,14 +70,10 @@ unsigned int compress_get_alsa_rate(unsigned int rate)
 		return SNDRV_PCM_RATE_8000;
 	case 11025:
 		return SNDRV_PCM_RATE_11025;
-	case 12000:
-		return SNDRV_PCM_RATE_12000;
 	case 16000:
 		return SNDRV_PCM_RATE_16000;
 	case 22050:
 		return SNDRV_PCM_RATE_22050;
-	case 24000:
-		return SNDRV_PCM_RATE_24000;
 	case 32000:
 		return SNDRV_PCM_RATE_32000;
 	case 44100:
